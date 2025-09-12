@@ -23,9 +23,9 @@ import Author02 from "../../../public/Images/author-02.webp";
 import Author03 from "../../../public/Images/author-03.webp";
 import Author04 from "../../../public/Images/author-04.webp";
 
-import Blogpage01 from "../../../public/Images/Blog-page-01.webp";
-import Blogpage02 from "../../../public/Images/Blog-page-02.webp";
-import Blogpage03 from "../../../public/Images/Blog-page-03.webp";
+import Blogpage01 from "../../../public/Images/blog-page-01.webp";
+import Blogpage02 from "../../../public/Images/blog-page-02.webp";
+import Blogpage03 from "../../../public/Images/blog-page-03.webp";
 
 import user from "../../assets/user.png";
 

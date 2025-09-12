@@ -7,12 +7,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 
-import Blogpage01 from "../../../public/Images/Blog-page-01.webp";
-import Blogpage02 from "../../../public/Images/Blog-page-02.webp";
-import Blogpage03 from "../../../public/Images/Blog-page-03.webp";
-import Blogpage04 from "../../../public/Images/Blog-page-04.webp";
-import Blogpage05 from "../../../public/Images/Blog-page-05.webp";
-import Blogpage06 from "../../../public/Images/Blog-page-06.webp";
+import Blogpage01 from "../../../public/Images/blog-page-01.webp";
+import Blogpage02 from "../../../public/Images/blog-page-02.webp";
+import Blogpage03 from "../../../public/Images/blog-page-03.webp";
+import Blogpage04 from "../../../public/Images/blog-page-04.webp";
+import Blogpage05 from "../../../public/Images/blog-page-05.webp";
+import Blogpage06 from "../../../public/Images/blog-page-06.webp";
 
 
 
