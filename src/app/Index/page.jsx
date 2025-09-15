@@ -23,9 +23,7 @@ import Author02 from "../../../public/Images/author-02.webp";
 import Author03 from "../../../public/Images/author-03.webp";
 import Author04 from "../../../public/Images/author-04.webp";
 
-import Blogpage01 from "../../../public/Images/blog-page-01.webp";
-import Blogpage02 from "../../../public/Images/blog-page-02.webp";
-import Blogpage03 from "../../../public/Images/blog-page-03.webp";
+
 
 import user from "../../assets/user.png";
 
@@ -415,58 +413,62 @@ export default function Index() {
           </p>
         </div>
 
-        <div className="blog-wrapper grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-          <div className="blog-card">
-            <Image
-              src={Blogpage02}
-              alt="blogpage02"
-              className="rounded-[20px]"
-            />
-            <h2 className="font-semibold text-lg sm:text-xl mt-6 unbounded-font mb-2">
-              Tropical Bliss: Rejuvenate in Asia's Idyllic Beaches
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              quidem ullam distinctio accusamus veniam nulla, facilis maxime
-              dolore aut vel ut aliquam, animi officia harum est sapiente!
-              Praesentium, id illum!
-            </p>
-          </div>
+            <div className="blog-wrapper grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+      <div className="blog-card">
+        <Image
+          src="/Images/blog-page-02.webp"
+          alt="blogpage02"
+          className="rounded-[20px]"
+          width={500}
+          height={300}
+        />
+        <h2 className="font-semibold text-lg sm:text-xl mt-6 unbounded-font mb-2">
+          Tropical Bliss: Rejuvenate in Asia's Idyllic Beaches
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem
+          ullam distinctio accusamus veniam nulla, facilis maxime dolore aut vel
+          ut aliquam, animi officia harum est sapiente! Praesentium, id illum!
+        </p>
+      </div>
 
-          <div className="blog-card">
-            <Image
-              src={Blogpage01}
-              alt="blogpage01"
-              className="rounded-[20px]"
-            />
-            <h2 className="font-semibold text-lg sm:text-xl mt-6 unbounded-font mb-2">
-              Asia's Thrilling Adventures: Hiking, Trekking, and More
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              quidem ullam distinctio accusamus veniam nulla, facilis maxime
-              dolore aut vel ut aliquam, animi officia harum est sapiente!
-              Praesentium, id illum!
-            </p>
-          </div>
+      <div className="blog-card">
+        <Image
+          src="/Images/blog-page-01.webp"
+          alt="blogpage01"
+          className="rounded-[20px]"
+          width={500}
+          height={300}
+        />
+        <h2 className="font-semibold text-lg sm:text-xl mt-6 unbounded-font mb-2">
+          Asia's Thrilling Adventures: Hiking, Trekking, and More
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem
+          ullam distinctio accusamus veniam nulla, facilis maxime dolore aut vel
+          ut aliquam, animi officia harum est sapiente! Praesentium, id illum!
+        </p>
+      </div>
 
-          <div className="blog-card">
-            <Image
-              src={Blogpage03}
-              alt="blogpage03"
-              className="rounded-[20px]"
-            />
-            <h2 className="font-semibold text-lg sm:text-xl mt-6 unbounded-font mb-2">
-              Unforgettable Experiences: Asia's Must-Visit Destinations
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              quidem ullam distinctio accusamus veniam nulla, facilis maxime
-              dolore aut vel ut aliquam, animi officia harum est sapiente!
-              Praesentium, id illum!
-            </p>
-          </div>
-        </div>
+      <div className="blog-card">
+        <Image
+          src="/Images/blog-page-03.webp"
+          alt="blogpage03"
+          className="rounded-[20px]"
+          width={500}
+          height={300}
+        />
+        <h2 className="font-semibold text-lg sm:text-xl mt-6 unbounded-font mb-2">
+          Unforgettable Experiences: Asia's Must-Visit Destinations
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem
+          ullam distinctio accusamus veniam nulla, facilis maxime dolore aut vel
+          ut aliquam, animi officia harum est sapiente! Praesentium, id illum!
+        </p>
+      </div>
+    </div>
+
       </div>
 
       {/* Experience */}
